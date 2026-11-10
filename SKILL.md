@@ -1,9 +1,9 @@
 ---
-name: morph-story-layout
+name: logo-led-web-design
 description: Design and build product websites whose animation and visual language grow out of the product logo. Use when a user wants a logo decomposed, transformed or animated into feature illustrations, page decoration and transitions, with cohesive layout and restrained copy. Applies across brands, logo styles, page structures and frontend stacks, not just animating a header icon.
 ---
 
-# Logo-Led Product Websites
+# Logo-Led Web Design
 
 Turn a product's own logo into the visual material of its website. Design the illustrations, motion and layout together so the result explains the product and feels specific to its brand.
 

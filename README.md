@@ -1,4 +1,4 @@
-# morph-story-layout
+# logo-led-web-design
 
 A reusable skill for designing product websites whose visual story grows from the product's logo. It helps translate logo geometry into product-specific illustrations, animation, layout, and restrained copy.
 
@@ -8,10 +8,10 @@ This is a design method, not a fixed landing-page template. The included Tapestr
 
 Copy this repository directory into the skill location used by your coding assistant:
 
-- Codex: `~/.codex/skills/morph-story-layout/`
-- Claude Code: `.claude/skills/morph-story-layout/` in a project, or the corresponding user-level skills directory.
+- Codex: `~/.codex/skills/logo-led-web-design/`
+- Claude Code: `.claude/skills/logo-led-web-design/` in a project, or the corresponding user-level skills directory.
 
-Then ask the assistant to use `morph-story-layout` for a logo-led product website.
+Then ask the assistant to use `logo-led-web-design` for a logo-led product website.
 
 ## Contents
 
