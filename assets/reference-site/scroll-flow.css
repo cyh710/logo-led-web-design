@@ -1,0 +1,29 @@
+/* Five document-flow chapters; the artwork alone spans their shared rail. */
+.story{position:relative;background:var(--paper)}
+.chapter{position:relative;min-height:100svh}
+.opening{display:block;padding:0;overflow:visible;background:none}
+.chapter-content{position:relative;height:100svh;display:flex;align-items:center}
+.scene .chapter-content{z-index:3}
+.opening-copy{position:relative;z-index:3;margin-left:6%;width:47%;max-width:760px}
+.scene-copy,.scene-copy.is-active{position:relative;top:auto;left:auto;display:flex;flex-direction:column;justify-content:center;margin:0 0 0 6%;padding:0;width:43%;max-width:680px;min-height:0;height:auto;opacity:1;pointer-events:auto;transform:none;animation:none;transition:none}
+[data-chapter="role"] .scene-copy,[data-chapter="memory"] .scene-copy{margin-left:55%;width:39%}
+.opening-art{position:absolute;right:6.8%;top:52%;width:min(44vw,680px);aspect-ratio:1;display:grid;place-items:center;transform:translateY(-50%);pointer-events:none}
+.art-anchor{position:absolute;right:1.8%;top:52%;width:min(54vw,820px);aspect-ratio:1;transform:translateY(-50%);pointer-events:none}
+.opening-art .art-anchor{position:relative;right:auto;top:auto;width:100%;transform:none}
+[data-chapter="role"] .art-anchor,[data-chapter="memory"] .art-anchor{left:1.8%;right:auto}
+[data-chapter="chat"] .art-anchor,[data-chapter="download"] .art-anchor{top:50%}
+[data-chapter="download"] .art-anchor{width:min(44vw,680px);right:6.8%}
+.art-rail{position:absolute;inset:0;z-index:2;pointer-events:none}
+.art-stage{position:sticky;top:0;height:100svh;overflow:clip}
+.visual{position:absolute;left:0;top:0;right:auto;width:640px;aspect-ratio:1;transform:none;transform-origin:0 0;pointer-events:none;will-change:transform;visibility:visible}
+#morph-art{display:block}
+.visual-grid{position:absolute;inset:4%;background-image:linear-gradient(#afc2de40 1px,transparent 1px),linear-gradient(90deg,#afc2de40 1px,transparent 1px);background-size:32px 32px;mask-image:radial-gradient(ellipse,#000 10%,transparent 70%)}
+@media(max-width:900px){
+  .chapter-content{align-items:flex-start}
+  .opening-copy{margin:0 6%;padding-top:17svh;width:88%}
+  .scene-copy,.scene-copy.is-active,[data-chapter="role"] .scene-copy,[data-chapter="memory"] .scene-copy{margin:0;padding:13svh 6% 24px;width:100%;max-width:none;justify-content:flex-start;background:linear-gradient(#f6f8fc00, #f6f8fc 72px, #f6f8fc calc(100% - 24px), #f6f8fc00)}
+  .opening-art{width:min(78vw,560px);right:auto;left:50%;top:70%;transform:translate(-50%,-50%)}
+  .art-anchor,[data-chapter="role"] .art-anchor,[data-chapter="chat"] .art-anchor,[data-chapter="memory"] .art-anchor,[data-chapter="download"] .art-anchor{width:min(96vw,640px);right:auto;left:50%;top:66%;transform:translate(-50%,-50%)}
+  .opening-art .art-anchor{left:auto;transform:none}
+  [data-chapter="download"] .art-anchor{width:min(78vw,560px);top:75%}
+}

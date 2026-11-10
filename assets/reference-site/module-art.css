@@ -1,0 +1,52 @@
+/* The brand's three lines become the structure of each scene. */
+.visual-halo{inset:15%;background:#c7d9ff26;filter:blur(80px)}
+#morph-art{width:100%;height:100%;overflow:visible;shape-rendering:geometricPrecision;isolation:isolate}
+#brand-complete{mix-blend-mode:plus-lighter}
+#brand-ornaments{fill:none;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.brand-guide{stroke:#bacce9;stroke-width:1;opacity:.65}
+.brand-filament{stroke:#9ab8ed;stroke-width:1.3;opacity:.6}
+.brand-stitches{stroke:#9ab4df;stroke-width:1.2;opacity:.8}
+.brand-stitches circle{fill:var(--paper)}
+.ribbon{fill:none;stroke-linecap:round;stroke-linejoin:round}
+.ribbon-y{stroke:url(#art-ribbon);stroke-width:4}
+.ribbon-z{stroke:url(#art-ribbon);stroke-width:4}
+.ribbon-thread{stroke:#adc6fa;stroke-width:4}
+.ribbon-highlights{opacity:calc(var(--line-detail,1) * .4);pointer-events:none}
+.ribbon-highlights path{fill:none;stroke:#fff;stroke-width:.7;stroke-linecap:round;stroke-linejoin:round}
+.art-details{opacity:0;font-family:"Microsoft YaHei","PingFang SC",sans-serif}
+.art-kicker,.art-caption-svg{fill:#92aada;font:10px sans-serif;letter-spacing:2px}
+.art-title{fill:#435f9b;font-size:24px;font-weight:500}
+.art-heading{fill:#435f9b;font-size:15px}
+.art-small{fill:#7089bb;font-size:12px}
+.art-white{fill:white;font-size:12px}
+.art-muted{fill:#adc0df}
+.detail-line{fill:none;stroke:#cfddf6;stroke-width:1.5}
+.node-card{fill:#fff;stroke:#dce8fb;stroke-width:1.5}
+.node-dot{fill:#f7faff;stroke:#82a3ef;stroke-width:3}
+.memory-junction{fill:#92afe8;stroke:none}
+.memory-port{fill:#f6f8fc;stroke:#92afe8;stroke-width:2}
+.memory-port-link{fill:none;stroke:#92afe8;stroke-width:2.5;stroke-linecap:round}
+/* Fine interface details share the existing scene opacity and transform. */
+.art-window{fill:url(#art-paper);stroke:#e1e8f5;stroke-width:1;filter:url(#art-shadow)}
+.art-morph-surface{fill:url(#art-paper);filter:url(#art-shadow)}
+.art-backplate{fill:#f4f7fe;stroke:#dce6f7;stroke-width:1}
+.art-floating-card{fill:#fff;stroke:#e0e7f3;stroke-width:1;filter:url(#art-shadow)}
+.art-window-dots{fill:#c2d0e6}.art-window-dots circle:first-child{fill:#d5b7b3}.art-window-dots circle:nth-child(2){fill:#dacda9}
+.art-rule{fill:none;stroke:#e6ebf4;stroke-width:1}
+.art-field{fill:#fcfdff;stroke:#e0e7f3;stroke-width:1}
+.art-soft{fill:#edf3ff}
+.art-primary{fill:#7f9fe5}
+.art-message{fill:#fff;stroke:#e2e9f4;stroke-width:1}
+.art-label{fill:#445a80;font-size:12px;font-weight:600}
+.art-micro{fill:#8292ad;font-size:10px}
+.art-tiny{fill:#9aaac1;font-size:8px}
+.art-accent{fill:#6689cf}
+.art-white{fill:#fff}
+.art-skeleton{fill:none;stroke:#dbe3ef;stroke-width:3;stroke-linecap:round}
+.art-tab{fill:none;stroke:#85a7ed;stroke-width:2;stroke-linecap:round}
+.art-icon{fill:none;stroke:#7d9bd1;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.art-icon-white{stroke:#fff}.art-success{stroke:#7ca494}
+.art-dashed{fill:none;stroke:#bdcee9;stroke-width:1;stroke-dasharray:3 3}
+.art-meter-track{fill:none;stroke:#dce5f4;stroke-width:3;stroke-linecap:round}
+.art-meter-fill{fill:none;stroke:#8ba8e7;stroke-width:3;stroke-linecap:round}
+.art-annotation-line{fill:none;stroke:#c3d2ec;stroke-width:1;stroke-dasharray:3 4}
